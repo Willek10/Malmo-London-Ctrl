@@ -135,7 +135,7 @@ def checkAirwaysInCoded(coded_routes, airways_dict, fixes_set):
     missing.sort()
     with open("output.txt", "a", encoding="utf-8") as f:
         f.write("\n")
-        f.write("------------ Missing airway expansions in coded.ini ------------\n")
+        f.write("------------ Missing airway expansions in coded.txt ------------\n")
         for m in missing:
             f.write(m + "\n")
 
@@ -143,7 +143,7 @@ def checkAirwaysInCoded(coded_routes, airways_dict, fixes_set):
 def main():
     fixes_set = clearFixes("fixes.txt")
     airways = parseAirways("airways.txt")
-    coded = parseCoded("coded.ini")
+    coded = parseCoded("coded.txt")
     checkFixesInCoded(coded, fixes_set)
     checkFixInAirway(airways, fixes_set)
     checkAirwaysInCoded(coded, airways, fixes_set)
