@@ -1,0 +1,57 @@
+User
+ForegroundSymbol 2
+BackgroundSymbol 2
+PrimarySymbol 4
+UncorrelatedSymbol 6
+TrailSymbol 1
+FixSymbol 2
+AerodromeSymbol 0
+RangeRingLabels 0
+Font EuroScope
+LabelFontSize 9
+MapFontSize 8
+StripFontSize 6
+TitleFontSize 10
+BoldLabel Off
+BoldMap Off
+BoldList Off
+TrailNumber 5
+TrackSize 8
+FixSize 6
+PickSize 3
+ScanSegments 1
+MenuStyle 0
+MustCoordinate Off
+StripCoord 0
+STCA On
+MTCD On
+MTCDTools On
+VAWClose On
+ShowCalling On
+TrafficProbe On
+RoF On
+ActiveSort 2
+HoldSort 0
+OfferedSort 2
+AcceptedSort 2
+BorderHeight 2
+AIDOffset 0 1 0 7 On
+AFLOffset 1 1 0 3 On
+CFLOffset 2 1 0 3 On
+XFLOffset 2 1 4 3 On
+AttitudeOffset 1 1 3 1 On
+HeadingOffset 2 1 8 4 On
+SpeedOffset 3 1 9 4 Off
+GSpeedOffset 1 1 8 4 On
+RwyOffset 1 1 7 3 Off
+ICOffset 1 1 5 2 On
+TypeOffset 0 1 8 4 On
+WTCOffset 3 1 5 1 Off
+QuickOffset -1 1 0 12 On
+Hints On
+PTT On
+StripPrinting Off
+AutoPrint Off
+FormFeed Off
+PrintOnOffer Off
+TLConfig On
